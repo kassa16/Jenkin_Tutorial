@@ -28,7 +28,11 @@ echo 'This is staging stage'
 }
 }
 
-stage ('Deploy'){
+stage ('
+
+
+
+Deploy'){
     steps{
     echo 'This is deploying stage'
     echo "deploying version ${params.VERSION}"
